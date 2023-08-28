@@ -1,0 +1,125 @@
+
+body{
+    background: url("./media/coffee2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: blue;
+    padding: 20px;
+    padding-top: 30px;
+    
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+img:hover{
+    width: 200px;
+    height: 200px;
+}
+
+hr{
+    color: brown;
+    border: 2px solid brown;
+    margin: auto;
+    
+}
+.cafe{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: chocolate;
+    padding: 20px;
+    
+    
+}
+h1, .esterblish, h2{
+    text-align: center;
+
+}
+.esterblish{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+h1, h2{
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: Impact;
+}
+h1{
+    margin-top: 0;
+}
+.three{
+    margin-top: 40px;
+    background: blue;
+}
+.flavor{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.price{
+    text-align: right;
+    margin-right: 20px;
+    transform: translateY(-35px);
+    font-size: 20px;
+    
+}
+.items{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.amount{
+    text-align: right;
+    transform: translateY(-35px);
+    margin-right: 20px;
+    font-size: 20px;
+}
+a{
+    color: blue;
+}
+ a:hover{
+    color: greenyellow;
+    
+}
+a:active{
+    color: white;
+}
+a:checked{
+    color: purple;
+}
+a, .address{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+button{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 5px solid black;
+
+}
+.card{
+    font-size: 30px;
+}
+h4{
+    text-transform: uppercase;
+    transform: translateX(30px);
+}
+.second{
+    color: greenyellow;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+    text-align: center;
+}

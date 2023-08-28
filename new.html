@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+  
+<h1 id="title">Survey Form</h1>
+<p id="description">Please kindly fill out this form with the required information.</p>
+<form id="survey-form" action="" method="">
+<fieldset>
+  <label id="name-label" for="name">Enter your name: <input type="text" id="name" placeholder="full name" required></label>
+  <label id="email-label" for="email">Enter your email: <input type="email" id="email" placeholder="email" required></label>
+  <label id="number-label" for="number">Enter your number: <input type="number" id="number" min="1" max="100" placeholder="select number" required  ></label>
+</fieldset>
+<fieldset>
+  <label for="dropdown">How did you hear about us?<select id="dropdown">
+  <option value="">select one</option>
+  <option value="Radio">Radio</option>
+  <option value="TV">TV</option>
+  <option value="from a friend">from a friend</option>
+  <option value="Social Media">Social Media</option>
+  <option value="others">others</option>
+</select>
+<p>Gender:</p>
+<label for="male"> <input type="radio" name="gender" value="male" id="male">Male</label>
+<label for="female"> <input type="radio" name="gender" value="female" id="female">Female</label>
+<label for="identity"> <input type="checkbox" value="human" name="human" id="identity">I am human.</label>
+<label for="rules"> <input type="checkbox" value="agreement" name="agreement" id="rules">I agree with the <a href="#">terms and conditions</a> </label>
+</fieldset>
+<fieldset>
+  <label for="description">Describe yourself<textarea name="bio" id="description" rows="3" cols="30"></textarea></label>
+  <button id="submit" type="submit">Submit</button>
+</fieldset>
+
+</form>
+</body>
+</html>
